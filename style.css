@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+input, select {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 18px;
+    width: 40%;
+    border-radius: 10px;
+    border-color: #e8e8f1;
+    border-style: solid;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+select {
+    padding-left: 20px;
+}
+input:not(:last-child), select {
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #009d83;
+    color: white;
+    font-weight: 600;
+}
+body .results {
+    display: grid;
+}
+.results .box {
+    margin: 10px 10px;
+    width: 30%;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #fc5622;
+}
+.results section.box {
+    background-color: #795548;
+}
+body .results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
